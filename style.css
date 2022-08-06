@@ -1,0 +1,56 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#display {
+    text-align: right;
+    line-height: 50px;
+    height: 50px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 1px solid #999;
+    border-radius: 25px;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* border-bottom: 1px solid #999;
+    border-left: 1px solid #999; */
+}
+
+.buttons > div {
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.button {
+    margin: 5px;
+    border-radius: 25px;
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+#equal {
+    background-color: rgb(47, 157, 222);
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: rgb(42, 41, 41);
+    color: white;
+    transition: 500ms ease-in-out;
+}
+
+#clear, #delete {
+    font-weight: bolder;
+}
